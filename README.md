@@ -22,7 +22,7 @@ Las ferreterías muchas veces enfrentan problemas como:
 - Dificultad para integrar productos externos a su sistema.
 - Gestión de inventario inconsistente por falta de control centralizado.
 
-**FerreMax** aborda estos problemas aplicando una solución basada en 4 patrones de diseño.
+**FerreMJ** aborda estos problemas aplicando una solución basada en 4 patrones de diseño.
 
 ---
 
