@@ -23,11 +23,12 @@ public class NewMain {
 
         ObservadorStock observadorAdmin = new ObservadorStock("Admin Juan");
         clavos.agregarObservador(observadorAdmin);
+        martillo.agregarObservador(observadorAdmin);
 
         inventario.agregarProducto(martillo);
         inventario.agregarProducto(clavos);
 
-        clavos.setStock(3); // sin alerta
+        martillo.setStock(10); // sin alerta
         clavos.setStock(1); // alerta
 
         // Adapter
