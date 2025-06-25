@@ -118,7 +118,7 @@ public Producto clonar() {
     try {
         Producto clon = (Producto) super.clone();
         clon.observadores = new ArrayList<>();
-        clon.nombre = this.nombre + " (Copia)";
+        clon.nombre = this.nombre + " (Clon xd)";
         return clon;
     } catch (CloneNotSupportedException e) {
         throw new RuntimeException(e);
